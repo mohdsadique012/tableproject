@@ -1,11 +1,11 @@
-import Table from './Component/Table';
-import './App.css';
 
+import './App.css';
+import HomePage from './Component/HomePage';
 function App() {
   return (
-    <div className="App">
-      <Table />
-    </div>
+   <>
+   <HomePage />
+   </>
   );
 }
 
